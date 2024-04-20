@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "justeats-app",
-    "slug": "justeats-app",
+    "slug": "justeats",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8aa9da6-19a5-4347-8822-d3f78095737c"
+      }
+    },
+    "owner": "nykolaslima"
   }
 }
