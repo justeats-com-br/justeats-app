@@ -15,13 +15,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.justeats"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "br.com.justeats"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -31,6 +33,9 @@
         "projectId": "b8aa9da6-19a5-4347-8822-d3f78095737c"
       }
     },
+    "plugins": [
+      "@config-plugins/detox"
+    ],
     "owner": "nykolaslima"
   }
 }
